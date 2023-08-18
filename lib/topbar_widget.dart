@@ -5,12 +5,16 @@ class TopBarWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Size size=MediaQuery.of(context).size;
+    Size size = MediaQuery.of(context).size;
     return Container(
-width: size.width,
-height: 80,
-color: Colors.red,
-child: Center(child: Text("APPBARR")),
+      width: size.width,
+      height: 80,
+      color: Colors.red,
+      child: Center(
+          child: Text(
+        "Weather App",
+        style: TextStyle(fontWeight: FontWeight.bold),
+      )),
     );
   }
 }
