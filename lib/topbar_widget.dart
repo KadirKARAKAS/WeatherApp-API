@@ -10,7 +10,7 @@ class TopBarWidget extends StatelessWidget {
       width: size.width,
       height: 80,
       color: Colors.red,
-      child: Center(
+      child: const Center(
           child: Text(
         "Weather App",
         style: TextStyle(fontWeight: FontWeight.bold),
